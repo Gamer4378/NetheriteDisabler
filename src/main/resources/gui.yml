@@ -1,0 +1,145 @@
+# GUI Configuration for NetheriteDisabler
+# You can customize the appearance and behavior of the GUI here
+
+title: "&8Netherite Item Manager"
+
+# GUI Size (must be a multiple of 9)
+# Supported sizes: 9, 18, 27, 36, 45, 54
+size: 45
+
+# Hide item attributes (Currently Broken.)
+hide-attributes: true
+
+# Item Settings
+items:
+  sword:
+    slot: 11
+    name: "&5Netherite Sword"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  axe:
+    slot: 12
+    name: "&5Netherite Axe"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  pickaxe:
+    slot: 13
+    name: "&5Netherite Pickaxe"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  shovel:
+    slot: 14
+    name: "&5Netherite Shovel"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  hoe:
+    slot: 15
+    name: "&5Netherite Hoe"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  helmet:
+    slot: 20
+    name: "&5Netherite Helmet"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  chestplate:
+    slot: 21
+    name: "&5Netherite Chestplate"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  leggings:
+    slot: 23
+    name: "&5Netherite Leggings"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+  boots:
+    slot: 24
+    name: "&5Netherite Boots"
+    enabled-lore:
+      - ""
+      - "&aStatus: Enabled"
+      - ""
+      - "&eClick to toggle!"
+    disabled-lore:
+      - ""
+      - "&cStatus: Disabled"
+      - ""
+      - "&eClick to toggle!"
+
+# Close button settings
+close-button:
+  material: BARRIER
+  slot: 40
+  name: "&cClose"

@@ -1,0 +1,42 @@
+name: NetheriteDisabler
+version: '1.0-SNAPSHOT'
+main: me.heroicstudios.netheritedisabler.NetheriteDisabler
+api-version: '1.16'
+authors: [YourName]
+description: Disable Netherite equipment crafting with permissions
+commands:
+  netheritedisabler:
+    description: Control Netherite equipment crafting
+    usage: /<command> disable|enable|gui|reload <item>
+    aliases: [nd]
+permissions:
+  netheritedisabler.craft.sword:
+    description: Allows crafting Netherite Sword
+    default: false
+  netheritedisabler.craft.axe:
+    description: Allows crafting Netherite Axe
+    default: false
+  netheritedisabler.craft.pickaxe:
+    description: Allows crafting Netherite Pickaxe
+    default: false
+  netheritedisabler.craft.shovel:
+    description: Allows crafting Netherite Shovel
+    default: false
+  netheritedisabler.craft.hoe:
+    description: Allows crafting Netherite Hoe
+    default: false
+  netheritedisabler.craft.helmet:
+    description: Allows crafting Netherite Helmet
+    default: false
+  netheritedisabler.craft.chestplate:
+    description: Allows crafting Netherite Chestplate
+    default: false
+  netheritedisabler.craft.leggings:
+    description: Allows crafting Netherite Leggings
+    default: false
+  netheritedisabler.craft.boots:
+    description: Allows crafting Netherite Boots
+    default: false
+  netheritedisabler.admin:
+    description: Allows using the disable/enable commands
+    default: op

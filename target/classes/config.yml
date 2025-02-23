@@ -1,0 +1,23 @@
+# NetheriteDisabler Configuration
+
+# Disabled items configuration
+disabled-items:
+  NETHERITE_SWORD: true
+  NETHERITE_AXE: true
+  NETHERITE_PICKAXE: true
+  NETHERITE_SHOVEL: true
+  NETHERITE_HOE: true
+  NETHERITE_HELMET: true
+  NETHERITE_CHESTPLATE: true
+  NETHERITE_LEGGINGS: true
+  NETHERITE_BOOTS: true
+
+# Messages configuration
+messages:
+  no-permission: "&cYou don't have permission to use this!"
+  console-command: "&cThis command can only be used by players!"
+  usage: "&cUsage: /netheritedisabler <disable|enable|gui|reload> [item]"
+  invalid-item: "&cInvalid item! Valid items: sword, axe, pickaxe, shovel, hoe, helmet, chestplate, leggings, boots"
+  item-disabled: "&aSuccessfully disabled crafting of Netherite %item%"
+  item-enabled: "&aSuccessfully enabled crafting of Netherite %item%"
+  reload-success: "&aConfiguration reloaded successfully!"
