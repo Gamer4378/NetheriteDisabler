@@ -2,7 +2,7 @@ name: NetheriteDisabler
 version: '${project.version}'
 main: me.heroicstudios.netheritedisabler.NetheriteDisabler
 api-version: '1.16'
-authors: ItzOverWolf
+author: ItzOverWolf
 description: Disable Netherite equipment crafting with permissions
 commands:
   netheritedisabler:
